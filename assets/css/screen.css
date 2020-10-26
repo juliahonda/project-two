@@ -16,4 +16,24 @@ html {
   font-size: 16px;
   line-height:24px;
   padding: 12px;
+  background:	#E6E6FA;
+  /*color: purple;*/
+}
+
+h1, nav {
+  padding-bottom: 24px;
+}
+
+h2, h3 {
+  font-weight:bold;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+
+}
+
+figcaption {
+  padding-bottom: 24px;
 }
