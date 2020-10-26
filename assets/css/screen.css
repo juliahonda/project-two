@@ -24,16 +24,29 @@ h1, nav {
   padding-bottom: 24px;
 }
 
-h2, h3 {
+h2 {
   font-weight:bold;
+}
+
+h3 {
+  font-weight:bold;
+  padding-top: 24px;
+}
+
+h4 {
+  font-weight:bold;
+  padding-top: 24px;
 }
 
 img {
   display: block;
   max-width: 100%;
-
 }
 
-figcaption {
+/*figcaption {
   padding-bottom: 24px;
+}*/
+
+footer {
+  padding-top: 24px;
 }
