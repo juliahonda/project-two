@@ -36,11 +36,18 @@ nav {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  background:	#f3e6ff;
 }
 
-nav a {
-  
+.nav a {
+  display: block;
+  text-decoration: none;
+  background:	#f3e6ff;
+  color: #000000;
+  padding: 12px;
+}
+
+.nav a:hover{
+  background: #eeccff
 }
 
 h1, nav {
