@@ -63,7 +63,7 @@ p {
   }
 }
 
-ul.hobby-list, ul.details-college{
+ul.hobby-list, ul.details-college, ul.res-experience, ul.res-skills{
   list-style-type:disc;
   padding-left: 24px;
 }
