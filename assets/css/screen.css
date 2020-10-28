@@ -13,11 +13,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Merriweather', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 18px;
-  line-height:24px;
+  font-size: 1.125em; /*18 /16 = 1.125*/
+  line-height: 24px; /*24 /18 =1.333333 */
   padding: 12px;
-  background:	#E6E6FA;
-  /*color: purple;*/
+  background:	#d9b3ff;
+  /*color: purple; #E6E6FA lighter purple*/
+}
+
+/*@media screen and (min-width: 1px) {
+  html {
+    line-height: 1.5em;
+    font-size: 18px;
+}*/
+
+body {
+  margin: 1 em;
+  padding: 1 em;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background:	#f3e6ff;
+}
+
+nav a {
+  
 }
 
 h1, nav {
@@ -51,6 +74,7 @@ p {
   padding-top: 24px;
 }*/
 
+/*Do I have to keep adding media queries everytime it gets bigger? */
 @media screen and (min-width: 310px) {
   figure.cards, figure.park-painting{
     width: 50%;
