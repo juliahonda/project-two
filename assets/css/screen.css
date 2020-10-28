@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Merriweather', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height:24px;
   padding: 12px;
   background:	#E6E6FA;
@@ -44,6 +44,29 @@ img {
   border: 1px solid #000000;
 }
 
+p {
+  padding-bottom: 24px;
+}
+/*figure.family{
+  padding-top: 24px;
+}*/
+
+@media screen and (min-width: 310px) {
+  figure.cards, figure.park-painting{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 360px){
+  figure.team-photo, figure.beach, figure.family{
+    width: 75%;
+  }
+}
+
+ul.hobby-list, ul.details-college{
+  list-style-type:disc;
+  padding-left: 24px;
+}
 /*figcaption {
   padding-bottom: 24px;
 }*/
