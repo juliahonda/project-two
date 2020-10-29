@@ -17,37 +17,32 @@ html {
   line-height: 24px; /*24 /18 =1.333333 */
   padding: 12px;
   background:	#d9b3ff;
-  /*color: purple; #E6E6FA lighter purple*/
 }
-
-/*@media screen and (min-width: 1px) {
-  html {
-    line-height: 1.5em;
-    font-size: 18px;
-}*/
 
 body {
-  margin: 1 em;
-  padding: 1 em;
-  background-color: #ffffff;
+  margin: 1em; /*derive from line height*/
+  padding: 1em;
+  background-color: #ffffff; /*color: purple; #E6E6FA lighter purple*/
 }
 
-nav {
+/*nav {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
-}
+}*/
 
 .nav a {
   display: block;
+  text-align:center;
   text-decoration: none;
   background:	#f3e6ff;
   color: #000000;
   padding: 12px;
 }
-
 .nav a:hover{
   background: #eeccff
+}
+.nav li {
+  padding-bottom: 6px;
 }
 
 h1, nav {
@@ -81,6 +76,33 @@ p {
   padding-top: 24px;
 }*/
 
+/*figure.team-photo {
+  float: left;
+  padding: 24px
+}
+figure.beach {
+  float: right;
+}
+figure.park-painting {
+  float: left;
+}
+figure.cards {
+  float: right;
+} */
+figure{
+  float: right;
+  padding-left: 12px;
+}
+
+section:nth-of-type(2n) figure{
+  float: left;
+  padding-right: 12px;
+}
+
+/*figure.family {
+
+}*/
+
 /*Do I have to keep adding media queries everytime it gets bigger? */
 @media screen and (min-width: 310px) {
   figure.cards, figure.park-painting{
@@ -90,7 +112,7 @@ p {
 
 @media screen and (min-width: 360px){
   figure.team-photo, figure.beach, figure.family{
-    width: 75%;
+    width: 50%;
   }
 }
 
