@@ -15,7 +15,7 @@ html {
   font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1.125em; /*18 /16 = 1.125*/
   line-height: 1.333333em; /*24 /18 =1.333333 */
-  padding: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding: 1.333333em; /*12/18 =0.6666666666666666em*/
   background: #f7e6ff;
 }
 
@@ -132,7 +132,7 @@ section:nth-of-type(2n) figure {
   }
 }
 
-ul.hobby-list, ul.details-college, ul.res-experience, ul.res-skills {
+ul.hobby-list, ul.details-school, ul.res-experience, ul.res-skills {
   list-style-type: disc;
   padding-left: 1.333333em; /*24 /18 =1.333333 */
 }
