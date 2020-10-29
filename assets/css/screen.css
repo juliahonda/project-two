@@ -110,7 +110,7 @@ section:nth-of-type(2n) figure {
 
 @media screen and (min-width: 87.5em) { /*1400/16=87.5em*/
   figure.portrait {
-    width: 30%;
+    width: 20%;
   }
 }
 
