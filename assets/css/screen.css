@@ -14,8 +14,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: 'Merriweather', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 1.125em; /*18 /16 = 1.125*/
-  line-height: 24px; /*24 /18 =1.333333 */
-  padding: 12px;
+  line-height: 1.333333em; /*24 /18 =1.333333 */
+  padding: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
   background:	#f7e6ff;
 }
 
@@ -36,21 +36,21 @@ html {
   text-decoration: none;
   background:	#eeccff;
   color: #000000;
-  padding: 12px;
+  padding: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
 }
 .nav a:hover{
   background: #e6b3ff;
 }
 .nav li {
-  padding-bottom: 6px;
+  padding-bottom: 0.3333333333333333em; /*6/18 =0.3333333333333333em*/
 }
 
 nav {
-  padding-bottom: 24px;
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
 h1{
-  font-size:22px;
+  font-size:1.2222222222222223em; /*22/18=1.2222222222222223em*/
   padding-bottom: 24px;
   text-align: center;
 }
@@ -61,14 +61,14 @@ h2 {
 
 h3 {
   font-weight:bold;
-  padding-top: 24px;
+  padding-top: 1.333333em; /*24 /18 =1.333333 */
 }
 
 h4 {
   text-align: center;
   font-weight:bold;
-  padding-top: 12px;
-  padding-bottom: 24px;
+  padding-top: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
 img {
@@ -78,17 +78,17 @@ img {
 }
 
 p {
-  padding-bottom: 24px;
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
 figure{
   float: right;
-  padding-left: 24px;
+  padding-left: 1.333333em; /*24 /18 =1.333333 */
 }
 
 section:nth-of-type(2n) figure{
   float: left;
-  padding-right: 24px;
+  padding-right: 1.333333em; /*24 /18 =1.333333 */
 }
 
 /*figure.family {
@@ -96,37 +96,37 @@ section:nth-of-type(2n) figure{
 }*/
 
 /*Do I have to keep adding media queries everytime it gets bigger? */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 26.875em) { /*430/16 =26.875em*/
   figure.portrait{
     width: 50%;
   }
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 49.375em) { /*790/16=49.375em*/
   figure.portrait{
     width: 40%;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 87.5em) { /*1400/16=87.5em*/
   figure.portrait{
     width: 30%;
   }
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 22.5em){ /*360/16= 22.5em*/
   figure.landscape{
     width: 50%;
   }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 43.75em){ /*700/16=43.75em*/
   figure.landscape{
     width: 40%;
   }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 87.5em){ /*1400/16=87.5em*/
   figure.landscape{
     width: 30%;
   }
@@ -134,15 +134,15 @@ section:nth-of-type(2n) figure{
 
 ul.hobby-list, ul.details-college, ul.res-experience, ul.res-skills{
   list-style-type:disc;
-  padding-left: 24px;
+  padding-left: 1.333333em; /*24 /18 =1.333333 */
 }
 
 figcaption {
-  font-size: 12px;
-  padding-bottom: 12px;
+  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding-bottom: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
 }
 
 footer {
-  font-size: 12px;
-  padding-top: 24px;
+  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding-top: 1.333333em; /*24 /18 =1.333333 */
 }
