@@ -80,23 +80,7 @@ img {
 p {
   padding-bottom: 24px;
 }
-/*figure.family{
-  padding-top: 24px;
-}*/
 
-/*figure.team-photo {
-  float: left;
-  padding: 24px
-}
-figure.beach {
-  float: right;
-}
-figure.park-painting {
-  float: left;
-}
-figure.cards {
-  float: right;
-} */
 figure{
   float: right;
   padding-left: 24px;
@@ -159,5 +143,6 @@ figcaption {
 }
 
 footer {
+  font-size: 12px;
   padding-top: 24px;
 }
