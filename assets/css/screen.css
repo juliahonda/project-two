@@ -50,16 +50,18 @@ nav {
 }
 
 h1 {
-  font-size: 1.2222222222222223em; /*22/18=1.2222222222222223em*/
+  font-size: 1.333333em; /* 24 /18 =1.333333 22/18=1.2222222222222223em*/
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
 }
 
 h2 {
+  font-size: 1.111111111em; /*20/18=1.111111111em*/
   font-weight: bold;
 }
 
 h3 {
+  font-size: 1.111111111em; /*20/18=1.111111111em*/
   font-weight: bold;
   padding-top: 1.333333em; /*24 /18 =1.333333 */
 }
@@ -67,6 +69,7 @@ h3 {
 h4 {
   text-align: center;
   font-weight: bold;
+  font-size: 1.111111111em;
   padding-top: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
@@ -91,9 +94,34 @@ section:nth-of-type(2n) figure {
   padding-right: 1.333333em; /*24 /18 =1.333333 */
 }
 
-/*figure.family {
+ul.hobby-list, ul.details-school, ul.res-experience, ul.res-skills {
+  list-style-type: disc;
+  padding-left: 1.333333em; /*24 /18 =1.333333 */
+}
 
-}*/
+figcaption {
+  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding-bottom: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+}
+
+footer {
+  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
+  padding-top: 1.333333em; /*24 /18 =1.333333 */
+}
+
+#content {
+  padding: 0 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+
+@media screen and (min-width: 330px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav li {
+    padding: 0.3333333333333333em; /*6/18 =0.3333333333333333em*/
+  }
+}
 
 /*Do I have to keep adding media queries everytime it gets bigger? */
 @media screen and (min-width: 26.875em) { /*430/16 =26.875em*/
@@ -108,7 +136,7 @@ section:nth-of-type(2n) figure {
   }
 }
 
-@media screen and (min-width: 87.5em) { /*1400/16=87.5em*/
+@media screen and (min-width: 84.375em) { /*1350/16=84.375 1400/16=87.5em*/
   figure.portrait {
     width: 20%;
   }
@@ -126,23 +154,8 @@ section:nth-of-type(2n) figure {
   }
 }
 
-@media screen and (min-width: 87.5em) { /*1400/16=87.5em*/
+@media screen and (min-width: 84.375em) { /*1350/16=84.375 1400/16=87.5em*/
   figure.landscape {
     width: 30%;
   }
-}
-
-ul.hobby-list, ul.details-school, ul.res-experience, ul.res-skills {
-  list-style-type: disc;
-  padding-left: 1.333333em; /*24 /18 =1.333333 */
-}
-
-figcaption {
-  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
-  padding-bottom: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
-}
-
-footer {
-  font-size: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
-  padding-top: 1.333333em; /*24 /18 =1.333333 */
 }
