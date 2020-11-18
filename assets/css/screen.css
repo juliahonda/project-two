@@ -90,6 +90,13 @@ figure {
   padding-left: 1.333333em; /*24 /18 =1.333333 */
 }
 
+figure.portrait {
+  max-width: 450px; /*30% of 1500 original width of photo*/
+}
+figure.landscape {
+  max-width: 800.1px; /*30% of 2667 original width of photo*/
+}
+
 section:nth-of-type(2n) figure {
   float: left;
   padding-right: 1.333333em; /*24 /18 =1.333333 */
@@ -126,13 +133,13 @@ footer {
 }
 
 /*Do I have to keep adding media queries everytime it gets bigger? */
-@media screen and (min-width: 26.875em) { /*430/16 =26.875em*/
+/*@media screen and (min-width: 26.875em) { 430/16 =26.875em
   figure.portrait {
     width: 50%;
   }
-}
+} */
 
-@media screen and (min-width: 49.375em) { /*790/16=49.375em*/
+@media screen and (min-width: 38.125em) { /* 610/16= 38.125 790/16=49.375em*/
   figure.portrait {
     width: 40%;
   }
@@ -144,11 +151,11 @@ footer {
   }
 }
 
-@media screen and (min-width: 22.5em) { /*360/16= 22.5em*/
+/*@media screen and (min-width: 22.5em) { 360/16= 22.5em
   figure.landscape {
     width: 50%;
   }
-}
+}*/
 
 @media screen and (min-width: 43.75em) { /*700/16=43.75em*/
   figure.landscape {
